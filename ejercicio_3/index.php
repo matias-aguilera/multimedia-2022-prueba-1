@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>formulario de noticia</title>
+    <title>función de segundo grado</title>
 
     <style>
       body {
@@ -36,7 +36,7 @@
           </td>
           <td>
             <label for="a "></label>
-            <input type="number" name="a" id="a" required  />
+            <input type="number" name="a"  required  />
           </td>
         </tr>
         <td>
@@ -44,7 +44,7 @@
           </td>
           <td>
             <label for="b "></label>
-            <input type="number" name="b" id="b" required  />
+            <input type="number" name="b"  required  />
           </td>
           <tr>
           <td>
@@ -52,7 +52,7 @@
           </td>
           <td>
             <label for="c "></label>
-            <input type="number" name="c" id="c" required  />
+            <input type="number" name="c"  required  />
           </td>
         </tr>
           <tr>

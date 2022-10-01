@@ -36,7 +36,7 @@
           </td>
           <td>
             <label for="titulo"></label>
-            <input type="text" name="titulo" id="titulo" required  />
+            <input type="text" name="titulo"  required  />
           </td>
         </tr>
         <tr>
@@ -53,7 +53,7 @@
           </td>
           <td>
             <label for="categoria"></label>
-            <input type="text" name="categoria" id="categoria"  required />
+            <input type="text" name="categoria"   required />
           </td>
         </tr>
         <tr>
@@ -61,8 +61,8 @@
           imagen:
           </td>
           <td>
-            <label for="imagen"></label>
-            <input type="file" name="imagen" id="imagen"  required />
+            <label for="foto"></label>
+            <input type="file" name="imagen"   required />
           </td>
         </tr>
         <tr>
@@ -71,7 +71,7 @@
           </td>
           <td>
             <label for="autor"></label>
-            <input type="text" name="autor" id="autor"  required />
+            <input type="text" name="autor"   required />
           </td>
         </tr>
        
@@ -83,9 +83,6 @@
           <td align="center">
             <input
               type="submit"  name="enviar" id="enviar" value="enviar" />
-          </td>
-          <td align="center">
-            <input type="reset" name="borrar" id="borrar" value="Restablecer" />
           </td>
         </tr>
       </table>

@@ -48,7 +48,7 @@ $conexion = mysqli_connect($host, $user, $pass, $db);
 
 //2.- Consulta
 $consulta = "INSERT INTO ejercicio_1 (titulo, cuerpo, categoria,imagen,autor ) 
-            VALUES('$titulo', '$cuerpo', '$categoria','$imagen','$autor')";
+            VALUES('$titulo', '$cuerpo', '$categoria','$target_file','$autor')";
 
 //3.- Ejecutar consulta
 if (mysqli_query($conexion, $consulta)) {

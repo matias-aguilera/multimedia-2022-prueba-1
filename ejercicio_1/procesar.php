@@ -15,7 +15,7 @@ $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 $check = getimagesize($imagen["tmp_name"]);
 
 if($check !== false) {
-    echo "File is an image - " . $check["mime"] . ".";
+    echo "el archivo es una imagen " . $check["mime"] . ".";
 } else {
     echo "el archivo no es una imagen";
 }
@@ -31,7 +31,7 @@ if($imageFileType != "jpg" && $imageFileType != "png") {
     }
 
 move_uploaded_file($imagen["tmp_name"], $target_file);
-echo "Imagen " . $imagen['name'];
+echo "Imagen " .( $imagen["name"]);
 
 $autor = $_POST['autor'];
 
